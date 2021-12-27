@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+#docs/html
+docs/html/*
+docs/latex/*
