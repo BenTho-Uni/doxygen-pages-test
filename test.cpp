@@ -23,7 +23,7 @@ using namespace std;
 int test_function (int test);
 
 int test_function (int test){
-  if (test == 1) return 1;
+  if (test == 1) return 2;
   else return 0;
 }
 
