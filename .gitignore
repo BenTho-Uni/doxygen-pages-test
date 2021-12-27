@@ -31,6 +31,5 @@
 *.out
 *.app
 
-#docs/html
-docs/html/*
+#docs/latex 
 docs/latex/*
