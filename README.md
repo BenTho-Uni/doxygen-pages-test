@@ -1,4 +1,5 @@
 # doxygen-pages-test
+## Automatically build and deploy Doxygen to github pages after main push
 Test repository for deploying C++ doxygen to github pages.
 
 The workflow file checks out the rep, builds doxygen and then pushes the
