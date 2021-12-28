@@ -25,7 +25,9 @@
 var NAVTREE =
 [
   [ "doxygen-pages-test", "index.html", [
-    [ "doxygen-pages-test", "md__github_workspace_README.html", null ],
+    [ "doxygen-pages-test", "md__github_workspace_README.html", [
+      [ "todo", "md__github_workspace_README.html#autotoc_md1", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ]
