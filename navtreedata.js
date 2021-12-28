@@ -32,6 +32,7 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Header 3", "index.html#autotoc_md5", null ],
+    [ "Credits", "index.html#autotoc_md6", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ]
