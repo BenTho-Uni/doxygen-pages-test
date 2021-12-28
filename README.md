@@ -7,3 +7,9 @@ docs/html folder to the gh-pages branch, which gets deployed.
 
 The documentation is available under:
 https://bentho-uni.github.io/doxygen-pages-test/index.html
+
+# Header 2
+## SubHeader 1
+### SubSubheader 1
+
+# Header 3
