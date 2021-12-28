@@ -23,10 +23,14 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "doxygen-pages-test", "index.html", [
-    [ "doxygen-pages-test", "md__home_bentho_github_doxygen-pages-test_README.html", [
-      [ "Automatically build and deploy Doxygen to github pages after main push", "md__home_bentho_github_doxygen-pages-test_README.html#autotoc_md1", null ],
-      [ "todo", "md__home_bentho_github_doxygen-pages-test_README.html#autotoc_md2", null ]
+    [ "Automatically build and deploy Doxygen to github pages after main push", "index.html#autotoc_md1", null ],
+    [ "Header 2", "index.html#autotoc_md2", [
+      [ "SubHeader 1", "index.html#autotoc_md3", [
+        [ "SubSubheader 1", "index.html#autotoc_md4", null ]
+      ] ]
     ] ],
+    [ "Header 3", "index.html#autotoc_md5", null ],
+    [ "Credits", "index.html#autotoc_md6", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ]
