@@ -15,3 +15,6 @@ https://bentho-uni.github.io/doxygen-pages-test/index.html
 ### SubSubheader 1
 
 # Header 3
+
+# Credits
+The [Doxygen](https://www.doxygen.nl/index.html) documentation uses the [doxygen-awesome](https://jothepro.github.io/doxygen-awesome-css/index.html) theme.
