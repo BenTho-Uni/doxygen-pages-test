@@ -7,6 +7,3 @@ docs/html folder to the gh-pages branch, which gets deployed.
 
 The documentation is available under:
 https://bentho-uni.github.io/doxygen-pages-test/index.html
-
-## todo
-- find out why custom css is not working
