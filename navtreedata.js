@@ -25,9 +25,7 @@
 var NAVTREE =
 [
   [ "doxygen-pages-test", "index.html", [
-    [ "doxygen-pages-test", "md__github_workspace_README.html", [
-      [ "Automatically build and deploy Doxygen to github pages after main push", "md__github_workspace_README.html#autotoc_md1", null ]
-    ] ],
+    [ "Automatically build and deploy Doxygen to github pages after main push", "index.html#autotoc_md1", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ]
