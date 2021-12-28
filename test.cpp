@@ -1,13 +1,3 @@
-/**
-@mainpage
-
-This is a test application.
-
-@author Test
-@date 10/21/2021
-@version 1.0
-*/
-
 /** @file */
 
 
