@@ -1,6 +1,6 @@
 # doxygen-pages-test
 ## Automatically build and deploy Doxygen to github pages after main push
-[![GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-green)](https://github.com/BenTho-Uni/doxygen-pages-test/blob/main/LICENSE)
+[![GPL-3.0](https://img.shields.io/github/license/BenTho-Uni/doxygen-pages-test)](https://github.com/BenTho-Uni/doxygen-pages-test/blob/main/LICENSE)
 
 Test repository for deploying C++ doxygen to github pages.
 
@@ -18,3 +18,5 @@ https://bentho-uni.github.io/doxygen-pages-test/index.html
 
 # Credits
 The [Doxygen](https://www.doxygen.nl/index.html) documentation uses the [doxygen-awesome](https://jothepro.github.io/doxygen-awesome-css/index.html) theme.
+
+Badges by [Shields.io](https://shields.io).
