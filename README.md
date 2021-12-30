@@ -1,6 +1,16 @@
 # doxygen-pages-test
 ## Automatically build and deploy Doxygen to github pages after main push
-[![GPL-3.0](https://img.shields.io/github/license/BenTho-Uni/doxygen-pages-test)](https://github.com/BenTho-Uni/doxygen-pages-test/blob/main/LICENSE)
+
+| **Code** | [![][github-img]][github-url]  [![][license-img]][license-url]|
+| :----- | :----- |
+| **Documentation** | [![][docs-img]][docs-url] |
+
+[docs-img]: https://img.shields.io/badge/docs-latest-blue?style=flat-square
+[docs-url]: https://bentho-uni.github.io/doxygen-pages-test/
+[github-img]: https://img.shields.io/badge/GitHub-source-brightgreen?style=flat-square
+[github-url]: https://github.com/BenTho-Uni/doxygen-pages-test
+[license-img]: https://img.shields.io/github/license/BenTho-Uni/libqqc?style=flat-square
+[license-url]: https://github.com/BenTho-Uni/doxygen-pages-test/blob/main/LICENSE
 
 Test repository for deploying C++ doxygen to github pages.
 
