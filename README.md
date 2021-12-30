@@ -25,7 +25,7 @@ mkdir docs
 cd docs
 doxygen -g
 ```
-Change Doxyfile to your liking (esp, PROJECT_NAME, INPUT, RECURSIVE,  /output), 
+Change Doxyfile to your liking (esp, PROJECT_NAME, INPUT, RECURSIVE,  OUTPUT), 
 document code, run doxygen
 
 ```
