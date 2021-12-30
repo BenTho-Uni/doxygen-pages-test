@@ -114,11 +114,24 @@ Setup</h1>
 <div class="fragment"><div class="line">mkdir docs</div>
 <div class="line">cd docs</div>
 <div class="line">doxygen -g</div>
-</div><!-- fragment --><p> Change Doxyfile to your liking (esp, PROJECT_NAME, INPUT, RECURSIVE, OUTPUT), document code, run doxygen</p>
+</div><!-- fragment --><p >Change Doxyfile to your liking (esp, PROJECT_NAME, INPUT, RECURSIVE, OUTPUT), document code, run doxygen</p>
 <div class="fragment"><div class="line">doxygen Doxyfile</div>
-</div><!-- fragment --><p> Check if documentation works, e.g.</p>
+</div><!-- fragment --><p >Check if documentation works, e.g.</p>
 <div class="fragment"><div class="line">firefox html/index.html</div>
-</div><!-- fragment --><p> Change workflow branch from which to build, and folder where html files are located. Commit, go to Actions tab on GitHub, see if workflow successfully builds doxygen and deploys to gh-pages branch.</p>
+</div><!-- fragment --><p >In <code>.github/workflows/main.yml</code> change branch from which to build</p>
+<div class="fragment"><div class="line">on:</div>
+<div class="line">  push:</div>
+<div class="line">    branches: [ main ]</div>
+<div class="line">  pull_request:</div>
+<div class="line">    branches: [ main ]</div>
+</div><!-- fragment --><p >and folder where Doxyfile and doxygen work directory are located.</p>
+<div class="fragment"><div class="line"># Path to Doxyfile</div>
+<div class="line">doxyfile-path: &quot;./Doxyfile&quot; # default is ./Doxyfile</div>
+<div class="line"># Working directory</div>
+<div class="line">working-directory: &quot;./docs/&quot; # default is .</div>
+</div><!-- fragment --><p >Change where the html files are located</p>
+<div class="fragment"><div class="line">publish_dir: ./docs/html</div>
+</div><!-- fragment --><p >Commit, go to Actions tab on GitHub, see if workflow successfully builds doxygen and deploys to gh-pages branch.</p>
 <p >If so, go to GitHub repo settings, Pages, Source -&gt; gh-pages, /root, click save.</p>
 <p >Go to Actions tab, wait till page is build. If successfull, you should be able to see it under <a href="https://your_user_name.github.io/your_repo_name/">https://your_user_name.github.io/your_repo_name/</a></p>
 <h1><a class="anchor" id="autotoc_md3"></a>
