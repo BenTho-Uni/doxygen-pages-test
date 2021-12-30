@@ -25,19 +25,45 @@ mkdir docs
 cd docs
 doxygen -g
 ```
+
 Change Doxyfile to your liking (esp, PROJECT_NAME, INPUT, RECURSIVE,  OUTPUT), 
 document code, run doxygen
 
 ```
 doxygen Doxyfile
 ```
+
 Check if documentation works, e.g.
 
 ```
 firefox html/index.html
 ```
-Change workflow branch from which to build, and folder where html files are 
-located. 
+
+In `.github/workflows/main.yml` change branch from which to build
+
+```
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+```
+
+and folder where Doxyfile and doxygen work directory are located. 
+
+```
+        # Path to Doxyfile
+        doxyfile-path: "./Doxyfile" # default is ./Doxyfile
+        # Working directory
+        working-directory: "./docs/" # default is .
+```
+
+Change where the html files are located
+
+```
+      publish_dir: ./docs/html
+```
+
 Commit, go to Actions tab on GitHub, see if workflow successfully builds 
 doxygen and deploys to gh-pages branch. 
 
